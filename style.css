@@ -1,0 +1,63 @@
+
+/*Navigation bar*/
+nav {
+    padding: 4px;
+}
+nav ul {
+    margin-left: 0px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    background-color: rgba(12, 129, 129, 0.764);
+    text-decoration: none;
+
+    border-right-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+    
+    padding: 5px;
+    margin: 0;
+}
+nav ul li a:hover {
+    background-color: #00ffdd;
+}
+
+/*ID's*/
+#nav1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    li{
+        font-size: large;
+    }
+}
+#header {
+    padding: 2px;
+    margin-top: auto;
+    background-color:rgba(12, 129, 129, 0.51);
+    text-align: center;
+    align-items: center;
+}
+
+/*Classes*/
+
+/*Elements*/
+body {
+    font-size: 100%;
+    background-image: url("Images/BGImage.png");
+    background-size: cover;
+}
+h1 {
+    color:antiquewhite;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-shadow:  6px -6px 5px black;
+    text-decoration-thickness: 2px;
+    font-size: 600%;
+    font-variant: small-caps;
+}
