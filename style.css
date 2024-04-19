@@ -39,12 +39,6 @@ nav ul li {
 #nav2 {
     position: relative;
 }
-#contacticons {
-    scale: 0.7;
-}
-#contacticons:hover {
-    transform: scale(1.2);
-}
 #home {
     position: static;
 
@@ -64,6 +58,19 @@ nav ul li {
 }
 
 /*Classes*/
+.contacticons {
+    scale: 0.7;
+    transition: transform 0.2s ease-in-out;
+}
+.contacticons:hover {
+    transform: scale(1.2);
+}
+.navbar {
+    transition: transform 0.2s ease-in-out;
+}
+.navbar:hover {
+    font-size: x-large;
+}
 
 /*Elements*/
 header {
@@ -93,7 +100,6 @@ h1 {
     font-variant: small-caps;
 }
 footer {
-    align-items: center;
 
     background-color:black;
     color:white;
