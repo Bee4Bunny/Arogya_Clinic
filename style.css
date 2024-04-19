@@ -43,6 +43,22 @@ nav ul li a:hover {
     text-align: center;
     align-items: center;
 }
+#home {
+    position: static;
+
+}
+#about {
+    position: static;
+}
+#services {
+    position: static;
+}
+#contact {
+    position: absolute;
+}
+#footer {
+    position: static;
+}
 
 /*Classes*/
 
