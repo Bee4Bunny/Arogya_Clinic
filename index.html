@@ -14,13 +14,13 @@
 
         <header>
             <h1><b>Arogya Clinic</b></h1>
-            <nav id="nav1">
+            <nav id="navmain">
                 <ul>
                     <b>
-                    <li><a href="#" class="navbar">Home</a></li>
-                    <li><a href="#" class="navbar">About</a></li>
-                    <li><a href="#" class="navbar">Services</a></li>
-                    <li><a href="#" class="navbar">Contact</a></li>
+                    <li><a href="#home" class="navmain">Home</a></li>
+                    <li><a href="#about" class="navmain">About</a></li>
+                    <li><a href="#services" class="navmain">Services</a></li>
+                    <li><a href="#nav2" class="navmian">Contact</a></li>
                     </b>
                 </ul>
             </nav>
@@ -41,9 +41,10 @@
         </main>
 
         <footer>
-            <div id="contact">
-                <h2>Contact Us:</h2>
-                <nav id="nav2">
+            <h2 id="footerheading">Contact Us:</h2>
+
+            <div id="navcontact">
+                <nav>
                     <ul>
                         <li><a href="tel:6295544504"><img src="Images/Phone.png" class="contacticons"></a></li>
                         <li><a href="mailto:krnitish769@gmail.com"><img src="Images/Email.png" class="contacticons"></a></li>
@@ -51,6 +52,17 @@
                         <li><a href="https://www.linkedin.com/in/krnitish769"><img src="Images/Linkedin.png" class="contacticons"></a></li>
                     </ul>
                 </nav>
+            </div>
+
+            <div id="leavequery">
+                <form action="/action_page.php">
+                    <h2>Leave your query here</h2>
+                    <label for="email">Please type your email address here</label><br>
+                    <input type="text" id="emailbox" name="email"><br>
+                    <label for="massage">Please leave your massage here</label><br>
+                    <input type="text" id="massagebox" name="massage"><br>
+                    <button type="button" id="button" autofocus onclick="alert('We have received your query and we will get back to you soon! Till then keep healty')">Send Us</button>
+                </form>
             </div>
         </footer>
 
