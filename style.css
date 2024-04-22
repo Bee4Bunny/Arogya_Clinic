@@ -42,14 +42,29 @@ nav ul li {
 
 /*main id's*/
 #home {
-    position: static;
-
+    width: 50%;
+    text-align: justify;
+    h2 {
+        background-color: #007bff9d;
+        padding: 5px;
+    }
+    img {
+        right: 2%;
+    }
 }
 #about {
-    position: static;
+    width: 50%;
+    text-align: justify;
+    h2 {
+        background-color: #007bff9d;
+        padding: 5px;
+    }
 }
 #services {
-    position: static;
+    h2 {
+        background-color: #007bff9d;
+        padding: 5px;
+    }
 }
 
 /*footer id's*/
@@ -74,7 +89,7 @@ nav ul li {
     
     text-align: center;
     padding: 10px 20px;
-    position: fixed;
+    position: absolute;
     right: 8%;
     bottom: 1%;
 
@@ -108,9 +123,11 @@ nav ul li {
 .navmain:hover {
     font-size: x-large;
 }
+
+
 .contacticons {
     scale: 0.7;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 .contacticons:hover {
     transform: scale(1.2);
@@ -147,10 +164,10 @@ footer {
     background-color:black;
     color:white;
 
-    position: fixed;
+    position: relative;
     width: 100%;
 
-    padding-bottom: 8%;
+    padding-bottom: 10%;
     bottom: 0;
     left: 0;
 }
