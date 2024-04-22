@@ -135,14 +135,18 @@ nav ul li {
 
 /*Elements*/
 header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
     text-align: center;
     align-items: center;
 
     background-color:rgba(12, 129, 129, 0.51);
     color:antiquewhite;
 
-    padding: 15px;
-    margin: auto;
+    padding: 5px;
 }
 a {
     text-decoration: none;
@@ -159,6 +163,9 @@ h1 {
     text-decoration-thickness: 2px;
     font-size: 600%;
     font-variant: small-caps;
+}
+main {
+    margin-top: 18%;
 }
 footer {
     background-color:black;
